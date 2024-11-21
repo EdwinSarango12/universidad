@@ -3,8 +3,8 @@ package org.example;
 public class docenteContrato extends docente{
     private String TipoContrato;
 
-    public docenteContrato(String nombre, String cedula, String fechaNacimiento, String tipoSangre, int codigo, String TipoContrato) {
-        super(nombre, cedula, fechaNacimiento, tipoSangre, codigo);
+    public docenteContrato(String nombre, String cedula, String fechaNacimiento, String tipoSangre, int codigo,String direccion, String TipoContrato) {
+        super(nombre, cedula, fechaNacimiento, tipoSangre, codigo, direccion);
         this.TipoContrato = TipoContrato;
     }
     private String getTipoContrato() {

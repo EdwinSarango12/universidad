@@ -3,8 +3,8 @@ package org.example;
 public class estudianteBecado extends estudiante{
     private String tipoBeca;
 
-    public estudianteBecado(String nombre, String cedula, String fechaNacimiento, String tipoSangre, int codigo, String tipoBeca) {
-        super(nombre, cedula, fechaNacimiento, tipoSangre, codigo);
+    public estudianteBecado(String nombre, String cedula, String fechaNacimiento, String tipoSangre,String direccion,int codigo, String tipoBeca) {
+        super(nombre, cedula, fechaNacimiento, tipoSangre,direccion ,codigo);
         this.tipoBeca = tipoBeca;
     }
     private String getTipoBeca() {

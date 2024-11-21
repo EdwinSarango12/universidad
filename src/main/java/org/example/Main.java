@@ -12,7 +12,13 @@ public class Main {
 //        becado1.Imprimir();
 
         estudianteDeportista deportista1= new estudianteDeportista("Edwin Sarango","1751503234","06/02/2004","O+",20221445,"Tenis");
-        deportista1.Imprimir();
+//        deportista1.Imprimir();
+
+        /*Apartado Docente*/
+        docente docente1= new docente("Juan Pablo Zaldumbide","2012982374","08/06/1992","O+",20202020);
+//        docente1.Imprimir();
+
+
 
 
     }
